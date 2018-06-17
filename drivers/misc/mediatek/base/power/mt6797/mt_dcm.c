@@ -120,10 +120,10 @@ static unsigned long infracfg_ao_base;
 #define TAG	"[Power/dcm] "
 /* #define DCM_ENABLE_DCM_CFG */
 #define dcm_err(fmt, args...)	pr_err(TAG fmt, ##args)
-#define dcm_warn(fmt, args...)	pr_warn(TAG fmt, ##args)
-#define dcm_info(fmt, args...)	pr_warn(TAG fmt, ##args)
-#define dcm_dbg(fmt, args...)	pr_debug(TAG fmt, ##args)
-#define dcm_ver(fmt, args...)	pr_debug(TAG fmt, ##args)
+#define dcm_warn(fmt, args...)
+#define dcm_info(fmt, args...)
+#define dcm_dbg(fmt, args...)
+#define dcm_ver(fmt, args...)
 
 /** macro **/
 #define and(v, a) ((v) & (a))

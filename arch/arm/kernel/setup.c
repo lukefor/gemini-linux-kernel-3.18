@@ -339,7 +339,7 @@ static void __init cacheid_init(void)
 		cacheid = CACHEID_VIVT;
 	}
 
-	pr_info("CPU: %s data cache, %s instruction cache\n",
+	/*pr_info("CPU: %s data cache, %s instruction cache\n",
 		cache_is_vivt() ? "VIVT" :
 		cache_is_vipt_aliasing() ? "VIPT aliasing" :
 		cache_is_vipt_nonaliasing() ? "PIPT / VIPT nonaliasing" : "unknown",
@@ -347,7 +347,7 @@ static void __init cacheid_init(void)
 		icache_is_vivt_asid_tagged() ? "VIVT ASID tagged" :
 		icache_is_vipt_aliasing() ? "VIPT aliasing" :
 		icache_is_pipt() ? "PIPT" :
-		cache_is_vipt_nonaliasing() ? "VIPT nonaliasing" : "unknown");
+		cache_is_vipt_nonaliasing() ? "VIPT nonaliasing" : "unknown");*/
 }
 
 /*

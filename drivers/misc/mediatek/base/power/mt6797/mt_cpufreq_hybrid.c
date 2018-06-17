@@ -768,9 +768,9 @@ do {								\
 #define log_get_volt(log)		(((log) & LOG_V_MASK) >> 0)
 #define log_get_freq(log)		(((log) & LOG_F_MASK) >> 7)
 
-#define cspm_err(fmt, args...)		pr_err("[CPUHVFS] " fmt, ##args)
-#define cspm_warn(fmt, args...)		pr_warn("[CPUHVFS] " fmt, ##args)
-#define cspm_debug(fmt, args...)	pr_debug("[CPUHVFS] " fmt, ##args)
+#define cspm_err(fmt, args...)
+#define cspm_warn(fmt, args...)
+#define cspm_debug(fmt, args...)
 
 #define cspm_dbgx(flag, fmt, args...)			\
 do {							\
