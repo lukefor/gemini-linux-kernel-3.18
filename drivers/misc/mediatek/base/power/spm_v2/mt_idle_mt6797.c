@@ -20,8 +20,8 @@
 #include "mt_idle_internal.h"
 
 #define IDLE_TAG     "Power/swap "
-#define idle_err(fmt, args...)		pr_err(IDLE_TAG fmt, ##args)
-#define idle_dbg(fmt, args...)		pr_debug(IDLE_TAG fmt, ##args)
+#define idle_err(fmt, args...)
+#define idle_dbg(fmt, args...)
 
 enum subsys_id {
 	SYS_DIS,

@@ -58,13 +58,13 @@
 
 static bool mt_pbm_debug;
 
-#define pbm_emerg(fmt, args...)		pr_emerg(fmt, ##args)
-#define pbm_alert(fmt, args...)		pr_alert(fmt, ##args)
-#define pbm_crit(fmt, args...)		pr_crit(fmt, ##args)
-#define pbm_err(fmt, args...)		pr_err(fmt, ##args)
-#define pbm_warn(fmt, args...)		pr_warn(fmt, ##args)
-#define pbm_notice(fmt, args...)	pr_debug(fmt, ##args)
-#define pbm_info(fmt, args...)		pr_debug(fmt, ##args)
+#define pbm_emerg(fmt, args...)		
+#define pbm_alert(fmt, args...)		
+#define pbm_crit(fmt, args...)		
+#define pbm_err(fmt, args...)		
+#define pbm_warn(fmt, args...)		
+#define pbm_notice(fmt, args...)	
+#define pbm_info(fmt, args...)		
 
 #define pbm_debug(fmt, args...)	\
 	do {			\
