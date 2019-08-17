@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#! /usr/bin/python2
-=======
 #! /usr/bin/python
 # -*- coding: utf-8 -*-
 
@@ -14,7 +11,6 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # See http://www.gnu.org/licenses/gpl-2.0.html for more details.
->>>>>>> upstream/master
 
 import os, sys
 import getopt
